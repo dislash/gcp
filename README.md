@@ -6,8 +6,7 @@
 
 ### [FirebaseのPush通知をiOSで使ってみる](https://qiita.com/jiiikki/items/31f294cf2afcfe8d868d)
 
-{% code-tabs %}
-{% code-tabs-item title="AppDelegate.swift" %}
+{% code title="AppDelegate.swift" %}
 ```swift
 //
 //  AppDelegate.swift
@@ -97,11 +96,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
-{% code-tabs %}
-{% code-tabs-item title="ViewController.swift" %}
+{% code title="ViewController.swift" %}
 ```swift
 //
 //  ViewController.swift
@@ -149,8 +146,7 @@ class ViewController: UIViewController {
 }
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ![](.gitbook/assets/fullsizerender.png)
 

@@ -18,8 +18,7 @@
 
 ![Cloud Function](.gitbook/assets/sukurnshotto-2019-08-19-211950.png)
 
-{% code-tabs %}
-{% code-tabs-item title="startInstancePubSub" %}
+{% code title="startInstancePubSub" %}
 ```javascript
 const {Buffer} = require('safe-buffer');
 const Compute = require('@google-cloud/compute');
@@ -89,11 +88,9 @@ function _validatePayload(payload) {
   return payload;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
-{% code-tabs %}
-{% code-tabs-item title="stopInstancePubSub" %}
+{% code title="stopInstancePubSub" %}
 ```javascript
 const {Buffer} = require('safe-buffer');
 const Compute = require('@google-cloud/compute');
@@ -165,11 +162,9 @@ function _validatePayload(payload) {
   return payload;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
-{% code-tabs %}
-{% code-tabs-item title="package.json" %}
+{% code title="package.json" %}
 ```javascript
 {
   "name": "cloud-functions-schedule-instance",
@@ -199,8 +194,7 @@ function _validatePayload(payload) {
   }
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ![Cloud Scheduler](.gitbook/assets/sukurnshotto-2019-08-19-212827.png)
 
