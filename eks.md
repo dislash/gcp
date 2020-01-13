@@ -6,7 +6,7 @@ description: aws eks
 
 ## aws eks
 
-eks fargate install
+aws eks fargate install
 
 ```
 $ give me super-powers
