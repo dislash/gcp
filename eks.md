@@ -1,8 +1,12 @@
+---
+description: aws eks
+---
+
 # eks
 
-## Getting Super Powers
+## aws eks
 
-Becoming a super hero is a fairly straight forward process:
+eks fargate install
 
 ```
 $ give me super-powers
