@@ -12,24 +12,22 @@ Client Version: v1.17.0
 ```
 
 ```
-$ eksctl create cluster --name guestbook --fargate
+$ eksctl create cluster --name nky-guestbook --fargate
 ```
 
 command result
 
-![](.gitbook/assets/sukurnshotto-2020-01-13-115846.png)
-
 aws eks cluster
 
-![](.gitbook/assets/sukurnshotto-2020-01-13-120003.png)
-
 ```bash
-$ eksctl utils associate-iam-oidc-provider --region=ap-northeast-1 --cluster=guestbook --approve
+$ eksctl utils associate-iam-oidc-provider --region=ap-northeast-1 --cluster=nky-guestbook --approve
 ```
 
-![](.gitbook/assets/sukurnshotto-2020-01-13-120555.png)
+**eks cluster delete**
 
-
+```bash
+$ eksctl delete cluster --name nky-guestbook
+```
 
 参考サイト
 
