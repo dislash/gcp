@@ -3,8 +3,5 @@
 * [Firebase이용해서 APNs Push](README.md)
 * [GCPでジョブスケジューリング](gcpdejobusukejringu.md)
 * [aws eks](eks.md)
-
-## APIGateway
-
-* [Untitled](apigateway/untitled.md)
+* [APIGateway](apigateway.md)
 
