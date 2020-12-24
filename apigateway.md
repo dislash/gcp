@@ -15,7 +15,7 @@ description: １年間開発APIGateway内容を整理
 
 ## AWS構成図
 
-{% file src=".gitbook/assets/aws-gou-cheng-tu-.png" %}
+![](.gitbook/assets/aws-gou-cheng-tu-.png)
 
 ## デモンストレーション
 
