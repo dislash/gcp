@@ -15,6 +15,8 @@ description: １年間開発APIGateway内容を整理
 
 ## AWS構成図
 
+{% file src=".gitbook/assets/aws-gou-cheng-tu-.png" %}
+
 ## デモンストレーション
 
 * CloudFormationを利用して環境構築 proxy作成所要時間：10分 mock作成所要時間：8分 postman作成所要時間：3分
