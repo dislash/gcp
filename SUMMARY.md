@@ -4,5 +4,3 @@
 * [GCPでジョブスケジューリング](gcpdejobusukejringu.md)
 * [aws eks](eks.md)
 
-## １年間APIGateway開発整理 <a id="apigateway"></a>
-
