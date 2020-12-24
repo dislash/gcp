@@ -25,5 +25,5 @@ description: １年間開発APIGateway内容を整理
 
 ## プロジェクト管理は[スクラム](https://www.ogis-ri.co.jp/column/agile/agilescrum01.html)
 
-
+aws構成図作成は[draw.io](https://qiita.com/nave-m/items/68425f476b254a1a47b0)を参考
 
