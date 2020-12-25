@@ -20,7 +20,7 @@ description: １年間開発APIGateway内容を整理
 ## デモンストレーション
 
 * CloudFormationを利用して環境構築 proxy作成所要時間：10分 mock作成所要時間：8分 postman作成所要時間：3分
-* gatlingを用いてproxyサーバに負荷をかける：10分 ECS Fargateのタスクが1-&gt;2までスケールアウトされてスケールインまで確認 429の流量制限を確認
+* gatlingを用いてproxyサーバに負荷をかける：20分 ECS Fargateのタスクが1-&gt;2までスケールアウトされてスケールインまで確認 429の流量制限を確認
 * postmanを用いてIT試験実施、実施した結果がSlackに通知されることを確認：5分
 
 ## プロジェクト管理は[スクラム](https://www.ogis-ri.co.jp/column/agile/agilescrum01.html)
